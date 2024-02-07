@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+		<class name="Verify_Functionality.User_Login_LogoiutSession">
+			<methods>
+				<include name="Do_Login"></include>
+			</methods>
+		</class>
+      
+      <class name="Verify_Functionality.Stock_Management">
+		  <methods>
+			  <include name="Add_Stock"></include>
+		  </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
